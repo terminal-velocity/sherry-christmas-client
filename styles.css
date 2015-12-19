@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lora|Lobster+Two);
-
 h1 {
 	font-family: 'Lobster Two', sans-serif;
 	text-align: center;
@@ -22,6 +21,22 @@ div {
 	position: relative; 
 }
 
+p, input {
+	font-family: 'Lobster Two', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+input {
+	margin: 0 auto ;
+	font-family: 'Lora', sans-serif;
+	text-align: center;
+	width: 90%;
+	max-width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .vote_button {
 	margin: 0 auto ;
 	font-family: 'Lora', sans-serif;
@@ -32,4 +47,7 @@ div {
 	padding-bottom: 25px;
 	background-color: #000;
 	color: #fff;
+}
+input {
+	margin: auto;
 }
