@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Lora|Lobster+Two);
 
 h1 {
-	font-family: 'Lobster', sans-serif;
+	font-family: 'Lobster Two', sans-serif;
 	text-align: center;
 	color: #fff;
 	font-size: 250%;
@@ -23,7 +23,7 @@ div {
 
 .vote_button {
 	margin: 0 auto ;
-	font-family: 'Lobster', sans-serif;
+	font-family: 'Lora', sans-serif;
 	text-align: center;
 	width: 90%;
 	max-width: 500px;
