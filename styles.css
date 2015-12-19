@@ -1,8 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Lora|Lobster+Two);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Lobster+Two:400,700italic);
+
 h1 {
 	font-family: 'Lobster Two', sans-serif;
+	font-weight: 700;
+	font-style: italic;
 	text-align: center;
 	color: #fff;
+	font-size: 250%;
+}
+
+h2 {
+	font-family: 'Lora', sans-serif;
+	text-align: center;
+	color: #333;
 	font-size: 250%;
 }
 
@@ -11,8 +21,7 @@ h1 {
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: #C40000;
-	border: 2px solid #ccc;
+	background: #FA0029;
 	width: 100%;
 	margin: 0px auto; 
 }
@@ -22,20 +31,21 @@ div {
 }
 
 p, input {
-	font-family: 'Lobster Two', sans-serif;
+	font-family: 'Lora', sans-serif;
 	font-size: 20px;
 	text-align: center;
+	color: 333;
 }
 
 input {
 	margin: 0 auto ;
 	font-family: 'Lora', sans-serif;
 	text-align: center;
-	width: 90%;
-	max-width: 250px;
+	float: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	display: block;
+	border: 1px solid grey;
+	border-radius: 10px;
 }
 
 .vote_button {
@@ -49,17 +59,28 @@ input {
 	background-color: #000;
 	color: #fff;
 }
+
+#field-container {
+	width: 90%;
+	vertical-align: center;
+}
+
 button {
 	margin: 0 auto ;
 	display: block;
 	font-family: 'Lora', sans-serif;
 	text-align: center;
-	width: 12%;
-	max-width: 300px;
+	width: 90%;
+	max-width: 450px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #000;
-	color: #fff;
-	border: #C40000 2px;
-	border-radius: 25px;
+	background-color: #39B54A;
+	color: white;
+	border: #39B54A 2px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: #63B54A;
 }
