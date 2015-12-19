@@ -1,8 +1,10 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lobster', sans-serif;
 	text-align: center;
 	color: #fff;
+	font-size: 250%;
 }
 
 .header {
@@ -19,7 +21,7 @@ div {
 
 .vote_button {
 	margin: 0 auto ;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lobster', sans-serif;
 	text-align: center;
 	width: 20%;
 	height: 10%;
