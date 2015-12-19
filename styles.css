@@ -8,6 +8,8 @@ h1 {
 }
 
 .header {
+	max-width: 2000px;
+	width: 100%;
 	height: 15%;
 	background: #C40000;
 	border: 2px solid #ccc;
@@ -23,8 +25,10 @@ div {
 	margin: 0 auto ;
 	font-family: 'Lobster', sans-serif;
 	text-align: center;
-	width: 20%;
-	height: 10%;
+	width: 90%;
+	max-width: 500px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #000;
 	color: #fff;
 }
