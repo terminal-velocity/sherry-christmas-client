@@ -1,0 +1,28 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.header {
+	height: 15%;
+	background: #C40000;
+	border: 2px solid #ccc;
+	width: 100%;
+	margin: 0px auto; 
+}
+
+div { 
+	position: relative; 
+}
+
+.vote_button {
+	margin: 0 auto ;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 20%;
+	height: 10%;
+	background-color: #000;
+	color: #fff;
+}
